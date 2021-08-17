@@ -1,0 +1,224 @@
+* { margin-top: 0px; }
+*::selection { background: black; }
+*::-moz-selection { background: black; }
+body {
+	font: 12px Georgia, "Times New Roman", Times, serif;
+	background-color: #d2c09e;
+	background-image:url('../graphic/layout/body.jpg');
+	margin-top:6px;
+}
+a:link	{ font-weight:bold; color: #804000; text-decoration:none; }
+a:visited	{ font-weight:bold; color: #804000; text-decoration:none; }
+a:active	{ font-weight:bold; color: #e01f0f; text-decoration:none; }
+a:hover	{ font-weight:bold; color: #e01f0f; text-decoration:none;  }
+
+img { border:none; }
+table { border-spacing: 1px; }
+input {
+	border: 1px solid #804000;
+	padding-left: 2px;
+	padding-right: 2px;
+	cursor: auto;
+}
+script { display: none; }
+label { cursor: pointer; }
+textarea { border: 1px solid #804000; }
+
+
+.menu {
+	background:none repeat scroll 0 0 #F7EED3;
+	border-color:#804000;
+	background-image: url('../graphic/layout/main.jpg');
+	white-space: nowrap;
+	border-collapse:collapse;
+	margin:0;
+	padding:0 4px;
+	border: 1px solid #804000;
+}
+.production_table {
+	border: 1px solid #804000;
+}
+.production_table th{
+	background:none repeat scroll 0 0 #F7EED3;
+	border-color:#804000;
+	background-image: url('../graphic/layout/bg-tile.jpg');
+}
+.production_table td{
+	background:none repeat scroll 0 0 #F7EED3;
+}
+.content_main{
+	position:relative;
+	border-color:#804000;
+}
+.p_main{
+	position:absolute;
+	top:106px;
+	left:193px;
+	z-index:4;
+}
+.flag{
+	 font-weight: bold;
+	background:none repeat;
+	border-color:#000000;
+	background-color:#598146;
+	white-space: nowrap;
+	border-collapse:collapse;
+	border: 1px solid #000000;
+	color:#ddcb9a;
+	width:20px;
+	height:20px;
+	z-index:3;
+}
+.main {
+	position:absolute;
+	top:20px;
+	left:30px;
+}
+.place {
+	position:absolute;
+	top:10px;
+	left:40px;
+}
+.barracks {
+	position:absolute;
+	top:0px;
+	left:140px;
+}
+.stable {
+	position:absolute;
+	top:30px;
+	left:32px;
+}
+.garage {
+	position:absolute;
+	top:0px;
+	left:50px;
+}
+.snob {
+	position:absolute;
+	top:40px;
+	left:0px;
+}
+.smith {
+	position:absolute;
+	top:20px;
+	left:0px;
+}
+.market {
+	position:absolute;
+	top:20px;
+	left:98px;
+}
+.wood {
+	position:absolute;
+	top:0px;
+	left:60px;
+}
+.stone {
+	position:absolute;
+	top:-10px;
+	left:22px;
+}
+.iron {
+	position:absolute;
+	top:0px;
+	left:40px;
+}
+.farm {
+	position:absolute;
+	top:0px;
+	left:80px;
+}
+.storage {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.wall {
+	position:absolute;
+	top:380px;
+	left:450px;
+}
+.p_iron{
+	position:absolute;
+	top:0px;
+	left:0px; 
+}
+.p_stone{
+	position:absolute;
+	top:333px;
+	left:0px;
+}
+.p_wood{
+	position:absolute;
+	top:332px;
+	right:0px;
+}
+.p_wall{
+	position:absolute;
+	top:0px;
+	right:5px;
+}
+.p_storage{
+	position:absolute;
+	top:218px;
+	left:96px;
+}
+.p_barracks{
+	position:absolute;
+	top:117px;
+	left:360px;
+}
+.p_farm{
+	position:absolute;
+	top:36px;
+	left:238px;
+}
+.p_garage{
+	position:absolute;
+	top:102px;
+	left:44px;
+}
+.p_smith{
+	position:absolute;
+	top:44px;
+	left:149px;
+}
+.p_stable{
+	position:absolute;
+	top:222px;
+	left:222px;
+}
+.p_market{
+	position:absolute;
+	top:205px;
+	left:408px;
+}
+.p_snob{
+	position:absolute;
+	top:295px;
+	left:281px;
+}
+.p_place{
+	position:absolute;
+	top:211px;
+	left:342px;
+}
+
+.empty{
+	position:absolute;
+	z-index:20;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+}
+.green {
+	background-color:#d2fad2;
+}
+.red {
+	background-color:#fad2d2;
+}
+
+
+
